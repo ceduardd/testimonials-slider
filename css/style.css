@@ -1,0 +1,73 @@
+:root {
+    --font-principal: 'Inter', sans-serif;
+    --dark-blue: hsl(240, 38%, 20%);
+    --grayish-blue: hsl(240, 18%, 77%);
+    --shadow-pictures: 0 8px 35px -20px #000;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+.card {
+    height: 100vh;
+    background-image: url(/images/pattern-bg.svg), url(/images/pattern-curve.svg), url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 90px right 70px, bottom left, 20% 25%;
+    background-size: 557.6px 525.6px, auto, 100px 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    padding: 0 140px;
+}
+
+.card__content {
+    left: 20px;
+    color: var(--dark-blue);
+    width: 700px;
+}
+
+.card__experience {
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.card__name {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.card__name--ocupation {
+    color: var(--grayish-blue);
+    font-weight: normal;
+}
+
+.card__img {
+    width: 440px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: var(--shadow-pictures);
+}
+
+.card__button {
+    position: relative;
+    top: -25px;
+    right: -50px;
+    width: 90px;
+    border-radius: 40px;
+    height: 45px;
+    padding: 0 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow-pictures);
+}
