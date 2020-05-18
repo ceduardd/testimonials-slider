@@ -1,5 +1,5 @@
 :root {
-    --font-principal: 'Inter', sans-serif;
+    --font-principal: "Inter", sans-serif;
     --dark-blue: hsl(240, 38%, 20%);
     --grayish-blue: hsl(240, 18%, 77%);
     --shadow-pictures: 0 8px 35px -20px #000;
@@ -29,7 +29,6 @@ body {
 }
 
 .card__content {
-    left: 20px;
     color: var(--dark-blue);
     width: 700px;
 }
@@ -43,6 +42,7 @@ body {
 .card__name {
     font-size: 15px;
     font-weight: bolder;
+    display: inline;
 }
 
 .card__name--ocupation {
