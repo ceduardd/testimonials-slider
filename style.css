@@ -12,7 +12,7 @@ body {
   font-size: 32px;
   margin: 0;
   color: var(--dark-blue);
-  background-image: url("/images/pattern-curve.svg");
+  background-image: url(images/pattern-curve.svg);
   background-repeat: no-repeat;
   background-position: left bottom;
 }
@@ -27,7 +27,7 @@ main {
 
 .bio {
   flex: 1;
-  background-image: url("/images/pattern-quotes.svg");
+  background-image: url(images/pattern-quotes.svg);
   background-repeat: no-repeat;
   background-position: left 90px top;
   position: relative;
@@ -46,7 +46,7 @@ main {
 }
 
 .photo {
-  background-image: url("/images/pattern-bg.svg");
+  background-image: url(images/pattern-bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 9.09% 12.72% 12.72% 9.09%;
